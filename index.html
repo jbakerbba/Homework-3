@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Interest Calculator</h2>
+      <label class="input-label" for="principal">Principal:</label>
+      <input type="number" id="principal" />
+
+      <label class="input-label" for="interestRate">Interest Rate:</label>
+      <input type="number" id="interestRate" />
+
+      <label class="input-label" for="years">Number of Years:</label>
+      <input type="number" id="years" />
+
+      <button onclick="calculateInterest()">Calculate</button>
+
+      <h3>Result:</h3>
+      <p id="result"></p>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
